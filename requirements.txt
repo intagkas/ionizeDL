@@ -1,0 +1,17 @@
+# Core ML & Data Handling
+pandas==2.2.3
+numpy==2.2.6
+scikit-learn==1.6.1
+
+# PyTorch (for CUDA 11.8)
+# Note: The '+cu118' denotes a build for a specific CUDA version.
+# For a different setup, visit https://pytorch.org/get-started/locally/
+torch==2.7.0+cu118
+torchvision==0.19.0
+torchaudio==2.4.0
+
+# Visualization & Utilities
+matplotlib==3.10.3
+seaborn==0.13.2
+tqdm==4.67.1
+requests==2.32.3
